@@ -139,7 +139,7 @@ string text = "- Я думаю, - сказал князь, улыбаясь, - �
 //string s = "qwerty"
 //            012..
 // s(3) // r
-
+/*
 string Replace( string text, char oldValue, char newValue)
 {
     string result = String.Empty;
@@ -154,6 +154,12 @@ string Replace( string text, char oldValue, char newValue)
     return result;
 }
 
-string newText = Replace(text, " ", "|" );
-Console.WriteLine(newText);
+string newText = Replace(text, ' ', '|');
 
+Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replace(text, 'к', 'К');
+Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replace(text, 'С', 'с');
+*/
