@@ -4,7 +4,7 @@
 // 3) ничего не принимают, что-то возвращают
 // 4) чего-то принимают, что-то возвращают
 
-//Вид 1
+//Вид 1  (void)
 
 /*
 void Method1()
@@ -14,7 +14,7 @@ void Method1()
 Method1();
 */
 
-//Вид 2
+//Вид 2   (void)
 
 /*
 void Method2(string msg)
@@ -47,7 +47,7 @@ Method21("Текст", 4);
 //Method21(count: 4, msg: "новый текст" );
 */
 
-//Вид 3
+//Вид 3   (return)
 
 /*
 int Method3()
@@ -59,7 +59,7 @@ int year = Method3();
 Console.WriteLine(year);
 */
 
-//Вид 4
+//Вид 4    (return)
 
 /*
 string Method4(int count, string text)
@@ -80,3 +80,24 @@ Console.WriteLine(res);
 */
 
 
+// Цикл for 
+//Собирает в себе все - условия, счетчики, и т.д.
+// for (int i = 0, i < 10, i++)
+//  {
+//      Console.WriteLine(i)
+//  }
+
+/*
+string Method4(int count, string text)
+{
+    string result = string.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result = result + text;
+    }
+    return result;
+}
+
+string res = Method4(10, "Wow! ");
+Console.WriteLine(res);
+*/
